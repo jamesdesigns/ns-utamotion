@@ -5,6 +5,8 @@ purpose of the file is to pass control to the app’s first module.
 */
 require("./bundle-config");
 const application = require("tns-core-modules/application");
+// Geolocation
+const geolocation = require("nativescript-geolocation");
 
 application.run({ moduleName: "app-root/app-root" });
 
